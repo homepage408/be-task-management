@@ -298,6 +298,7 @@ const resolvers = {
             dataEmail.status
           );
           // console.log(dataEmail.title);
+          return dataEmail
         } else {
           throw new Error("you are not allowed");
         }
